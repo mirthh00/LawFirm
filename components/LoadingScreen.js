@@ -12,25 +12,21 @@ export default function LoadingScreen() {
       transition={{ duration: 0.65, ease: 'easeInOut' }}
     >
       {/* Logo mark */}
-      <motion.div
-        className="flex flex-col items-center mb-14"
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, ease: 'easeOut' }}
-      >
-        <div className="flex items-center gap-3 mb-2">
-          <Scale className="w-7 h-7 text-deep-blue" strokeWidth={1.5} />
-          <span
-            className="font-cormorant text-4xl font-bold tracking-widest text-deep-blue"
-            style={{ letterSpacing: '0.18em' }}
-          >
-            MERIDIAN
-          </span>
-        </div>
-        <span className="font-inter text-[10px] text-deep-blue/45 tracking-[0.35em] uppercase">
-          ATTORNEYS
-        </span>
-      </motion.div>
+    <motion.div
+  className="flex justify-center mb-14"
+  initial={{ opacity: 0, y: 16 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, ease: "easeOut" }}
+>
+  <Image
+    src="/images/logo.png"
+    alt="Meridian Attorneys"
+    width={500}
+    height={150}
+    priority
+    className="w-56 sm:w-64 md:w-72 h-auto object-contain"
+  />
+</motion.div>
 
       {/* Progress track */}
       <motion.div

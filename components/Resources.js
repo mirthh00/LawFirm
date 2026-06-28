@@ -44,7 +44,7 @@ export default function Resources() {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <span className="inline-block font-inter text-light-orange text-xs font-semibold tracking-[0.28em] uppercase mb-4">
+            <span className="inline-block font-inter text-[#d4bb2a] text-xs font-semibold tracking-[0.28em] uppercase mb-4">
               Legal Resources
             </span>
             <h2 className="font-cormorant text-4xl sm:text-5xl text-deep-blue font-light leading-tight">

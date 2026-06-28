@@ -80,7 +80,7 @@ export default function PracticeAreas() {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.7 }}
         >
-          <span className="inline-block font-inter text-light-orange text-xs font-semibold tracking-[0.28em] uppercase mb-5">
+          <span className="inline-block font-inter text-[#d4bb2a] text-xs font-semibold tracking-[0.28em] uppercase mb-5">
             Our Practice Areas
           </span>
           <h2 className="font-cormorant text-4xl sm:text-5xl text-deep-blue font-light leading-tight">
@@ -100,7 +100,7 @@ export default function PracticeAreas() {
             <motion.div
               key={title}
               variants={card}
-              className="group bg-white border border-gray-100 hover:border-light-orange/35 rounded-sm p-7 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer flex flex-col"
+              className="group bg-white border border-gray-100 hover:border-[#c8af24]/35 rounded-sm p-7 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer flex flex-col"
             >
               {/* Icon box */}
               <div className="w-11 h-11 rounded-sm bg-deep-blue/5 group-hover:bg-deep-blue flex items-center justify-center mb-5 transition-colors duration-300 shrink-0">

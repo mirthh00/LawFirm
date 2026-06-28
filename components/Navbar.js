@@ -99,7 +99,7 @@ export default function Navbar() {
             className={`lg:hidden p-2 -mr-2 transition-colors ${textColor}`}
             onClick={() => setMobileOpen(o => !o)}
           >
-            {mobileOpen ? <X className="w-7 h-7 text-white" /> : <Menu className="w-6 h-6" />}
+            {mobileOpen ? <X className="w-7 h-7" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
       </motion.nav>

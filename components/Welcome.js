@@ -49,7 +49,7 @@ export default function Welcome() {
             viewport={{ once: true, amount: 0.25 }}
             transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1] }}
           >
-            <span className="inline-block font-inter text-light-orange text-xs font-semibold tracking-[0.28em] uppercase mb-5">
+            <span className="inline-block font-inter text-[#d4bb2a] text-xs font-semibold tracking-[0.28em] uppercase mb-5">
               Welcome to Makwarela A.S Attorneys
             </span>
 

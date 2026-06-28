@@ -49,7 +49,7 @@ export default function WhyChooseUs() {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.7 }}
         >
-          <span className="inline-block font-inter text-light-orange text-xs font-semibold tracking-[0.28em] uppercase mb-5">
+          <span className="inline-block font-inter text-[#d4bb2a] text-xs font-semibold tracking-[0.28em] uppercase mb-5">
             Why Makwarela A.S
           </span>
           <h2 className="font-cormorant text-4xl sm:text-5xl text-deep-blue font-light leading-tight">
@@ -62,7 +62,7 @@ export default function WhyChooseUs() {
           {FEATURES.map(({ Icon, title, description }, i) => (
             <motion.div
               key={title}
-              className="group flex flex-col p-7 bg-soft-gray hover:bg-deep-blue rounded-sm transition-colors duration-400 cursor-default"
+     className="group bg-white border border-gray-100 hover:border-[#c8af24]/35 rounded-sm p-7 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer flex flex-col"
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.15 }}
