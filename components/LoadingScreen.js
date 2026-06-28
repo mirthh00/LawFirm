@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { Scale } from 'lucide-react'
+import Image from 'next/image'
 
 export default function LoadingScreen() {
   return (
@@ -20,7 +21,7 @@ export default function LoadingScreen() {
 >
   <Image
     src="/images/logo.png"
-    alt="Meridian Attorneys"
+    alt="Makwarela AS Attorneys"
     width={500}
     height={150}
     priority

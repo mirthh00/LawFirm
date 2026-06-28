@@ -53,7 +53,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center shrink-0">
  <Image
   src="/images/logo4.png"
-  alt="Meridian Attorneys"
+  alt="Makwarela AS Attorneys"
   width={500}
   height={100}
   priority
