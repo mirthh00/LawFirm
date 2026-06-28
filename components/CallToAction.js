@@ -258,7 +258,7 @@ export default function CallToAction() {
                         placeholder="John Smith"
                         value={form.name}
                         onChange={e => set('name', e.target.value)}
-                        className="flex-1 px-4 py-3.5 bg-transparent outline-none font-inter text-sm text-gray-800 placeholder:text-gray-400"
+                        className="flex-1 px-4 py-3.5 bg-transparent outline-none font-inter text-base md:text-sm text-gray-800 placeholder:text-gray-400"
                         autoComplete="name"
                       />
                     </Field>
@@ -270,7 +270,7 @@ export default function CallToAction() {
                         placeholder="john@gmail.com"
                         value={form.email}
                         onChange={e => set('email', e.target.value)}
-                        className="flex-1 px-4 py-3.5 bg-transparent outline-none font-inter text-sm text-gray-800 placeholder:text-gray-400"
+                     className="flex-1 px-4 py-3.5 bg-transparent outline-none font-inter text-base md:text-sm text-gray-800 placeholder:text-gray-400"
                         autoComplete="email"
                       />
                     </Field>
@@ -282,7 +282,7 @@ export default function CallToAction() {
                         placeholder="082 123 4567"
                         value={form.phone}
                         onChange={e => set('phone', e.target.value)}
-                        className="flex-1 px-4 py-3.5 bg-transparent outline-none font-inter text-sm text-gray-800 placeholder:text-gray-400"
+                        className="flex-1 px-4 py-3.5 bg-transparent outline-none font-inter text-base md:text-sm text-gray-800 placeholder:text-gray-400"
                         autoComplete="tel"
                       />
                     </Field>
@@ -354,7 +354,7 @@ export default function CallToAction() {
                             value={form.message}
                             onChange={e => set('message', e.target.value)}
                             placeholder="Please describe what happened and how we can help. Don't worry about choosing a legal category — our team will review your enquiry and direct it to the appropriate attorney."
-                            className="flex-1 bg-transparent outline-none font-inter text-sm text-gray-800 placeholder:text-gray-400 resize-none leading-relaxed"
+                            className="flex-1 bg-transparent outline-none font-inter text-base md:text-sm text-gray-800 placeholder:text-gray-400 resize-none leading-relaxed"
                           />
                         </div>
                       </div>

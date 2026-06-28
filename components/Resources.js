@@ -52,13 +52,6 @@ export default function Resources() {
             </h2>
           </motion.div>
 
-          <a
-            href="#"
-            className="shrink-0 inline-flex items-center gap-1.5 font-inter text-sm font-medium text-deep-blue hover:text-light-orange transition-colors"
-          >
-            View all articles
-            <ArrowRight className="w-4 h-4" />
-          </a>
         </div>
 
         {/* Article cards */}

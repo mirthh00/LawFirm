@@ -28,6 +28,14 @@ body {
   .page-content {
     padding-bottom: 80px;
   }
+  html {
+  scrollbar-gutter: stable;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
 
   @media (min-width: 1024px) {
     .page-content {
