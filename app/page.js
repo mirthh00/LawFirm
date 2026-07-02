@@ -15,13 +15,6 @@ import Footer         from '@/components/Footer'
 //import MobileBottomCTA from '@/components/MobileBottomCTA'
 
 
-export const metadata = {
-  title: 'Home | Makwarela A.S Attorneys',
-  description:
-    'Makwarela A.S Attorneys (Pty) Ltd provides professional legal services in family law, labour law, commercial law, civil litigation and more. Contact our experienced legal team today.',
-  keywords: ['attorneys', 'law firm', 'Johannesburg', 'legal advice', 'family law', 'business law','Makwarela','Makwarela A.S','Makwarela A.S Attorneys'],
-}
-
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true)
 
