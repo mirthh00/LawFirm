@@ -284,9 +284,7 @@ export default function LegalFAQ() {
               id="faq-heading"
               className="font-cormorant text-4xl sm:text-5xl text-deep-blue font-light leading-tight"
             >
-              Answers to common
-              <br className="hidden sm:block" />
-              legal questions
+              Answers to common legal questions
             </h2>
           </div>
 
@@ -336,7 +334,7 @@ export default function LegalFAQ() {
                       size={15}
                       strokeWidth={1.6}
                       className={`shrink-0 transition-colors ${
-                        isActive ? 'text-light-orange' : 'text-gray-400 group-hover:text-deep-blue'
+                        isActive ? 'text-[#d4bb2a]' : 'text-gray-400 group-hover:text-deep-blue'
                       }`}
                     />
                     <span className="font-inter text-sm font-medium leading-snug truncate">
@@ -346,7 +344,7 @@ export default function LegalFAQ() {
                   <span
                     className={`shrink-0 font-inter text-[11px] font-semibold px-2 py-0.5 rounded-full transition-colors ${
                       isActive
-                        ? 'bg-white/15 text-white/80'
+                        ? 'bg-[#d4bb2a]/15 text-white/80'
                         : 'bg-gray-100 text-gray-400 group-hover:bg-deep-blue/8 group-hover:text-deep-blue'
                     }`}
                   >
@@ -377,7 +375,7 @@ export default function LegalFAQ() {
                       : 'bg-white border-gray-200 text-gray-600 hover:border-deep-blue/40'
                   }`}
                 >
-                  <Icon size={12} strokeWidth={1.8} className={isActive ? 'text-light-orange' : 'text-gray-400'} />
+                  <Icon size={12} strokeWidth={1.8} className={isActive ? 'text-[#d4bb2a]' : 'text-gray-400'} />
                   {label}
                   <span className={`ml-0.5 ${isActive ? 'text-white/60' : 'text-gray-400'}`}>
                     {countFor(id)}
@@ -404,7 +402,7 @@ export default function LegalFAQ() {
                   </p>
                   <button
                     onClick={() => { changeQuery(''); changeCategory('all') }}
-                    className="mt-4 font-inter text-sm text-light-orange hover:underline"
+                    className="mt-4 font-inter text-sm text-[#d4bb2a] hover:underline"
                   >
                     Clear filters
                   </button>

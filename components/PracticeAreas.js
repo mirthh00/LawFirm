@@ -5,6 +5,7 @@ import {
   CreditCard, Car, HeartCrack, ScrollText,
   Receipt, Users, Handshake, Scale,
 } from 'lucide-react'
+import Link from 'next/link'
 
 const AREAS = [
   {
@@ -12,48 +13,56 @@ const AREAS = [
     title: 'Debt Review',
     description:
       'Formal debt rehabilitation under the National Credit Act — protecting your assets and restructuring repayments so you can regain financial control.',
+    href: '/areas/debt-review'
   },
   {
     Icon: Car,
     title: 'Road Accident Fund Claims',
     description:
       'Comprehensive RAF claims for drivers, passengers, and pedestrians injured through the negligence of another — general damages, loss of earnings, and medical costs.',
+        href: '/areas/road-accident-fund'
   },
   {
     Icon: HeartCrack,
     title: 'Divorce Matters',
     description:
       'Contested and uncontested divorces, division of assets, spousal maintenance, and parenting plans handled with clarity and sensitivity.',
+        href: '/areas/divorce-matters'
   },
   {
     Icon: ScrollText,
     title: 'Wills & Deceased Estates',
     description:
       'Drafting valid wills, appointing executors, and guiding families through the full winding-up of deceased estates — efficiently and compassionately.',
+        href: '/areas/wills-estates'
   },
   {
     Icon: Receipt,
     title: 'Debt Collection',
     description:
       'Demand letters, summons, judgment, and execution — we recover what is owed to you through the appropriate court, swiftly and cost-effectively.',
+        href: '/areas/debt-collection'
   },
   {
     Icon: Users,
     title: 'Family Law',
     description:
       'Protection orders, child maintenance, parenting plans, and guardianship matters — always with your family\'s best interests as the guiding principle.',
+        href: '/areas/family-law'
   },
   {
     Icon: Handshake,
     title: 'Third Party Claims',
     description:
       'Claims against third-party insurers for loss or injury caused by another\'s negligence — we build your case and negotiate the best possible settlement.',
+        href: '/areas/third-party-claims'
   },
   {
     Icon: Scale,
     title: 'Commercial & General Litigation',
     description:
       'Breach of contract, business disputes, shareholder conflicts, and professional negligence claims in Magistrate Court, High Court, and arbitration.',
+        href: '/areas/commercial-litigation'
   },
 ]
 
@@ -96,7 +105,7 @@ export default function PracticeAreas() {
           whileInView="show"
           viewport={{ once: true, amount: 0.06 }}
         >
-          {AREAS.map(({ Icon, title, description }) => (
+          {AREAS.map(({ Icon, title, description,href }) => (
             <motion.div
               key={title}
               variants={card}
@@ -117,6 +126,15 @@ export default function PracticeAreas() {
               <p className="font-inter text-gray-500 text-sm leading-relaxed flex-1">
                 {description}
               </p>
+
+               {/* Learn more */}
+             <Link
+  href={href}
+  className="mt-5 pt-4 border-t border-gray-100 flex items-center gap-1.5 font-inter text-xs font-semibold text-[#d4bb2a] hover:gap-3 transition-all duration-200"
+>
+  <span>Learn more</span>
+  <span aria-hidden="true">→</span>
+</Link>
 
             </motion.div>
           ))}

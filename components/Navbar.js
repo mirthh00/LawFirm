@@ -57,7 +57,7 @@ export default function Navbar() {
   width={500}
   height={100}
   priority
-  className="w-56 md:w-72 lg:w-80 h-24 object-cover"
+  className="w-56 md:w-72 lg:w-80 h-24 object-contain"
 />
 </Link>
 
@@ -78,11 +78,11 @@ export default function Navbar() {
           {/* Desktop actions */}
           <div className="hidden lg:flex items-center gap-5 shrink-0">
             <a
-              href="tel:+27110000000"
+              href="tel:0794706439"
               className={`flex items-center gap-2 font-inter text-sm font-medium transition-colors hover:text-[#d4bb2a] ${textColor}`}
             >
               <Phone className="w-3.5 h-3.5" />
-              +27 11 000 0000
+              079 470 6439
             </a>
             <a
               href="#contact"
@@ -154,11 +154,11 @@ export default function Navbar() {
               transition={{ delay: 0.42 }}
             >
               <a
-                href="tel:+27110000000"
+                href="tel:0794706439"
               className="flex items-center gap-3 text-white/80 text-sm"
               >
                 <Phone className="w-4 h-4 text-[#d4bb2a]" />
-                +27 11 000 0000
+                079 470 6439
               </a>
               <a
                 href="#contact"

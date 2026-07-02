@@ -13,19 +13,19 @@ const INFO = [
   {
     Icon: PhoneCall,
     label: 'Call us directly',
-    text: '+27 11 000 0000',
-    href: 'tel:+27110000000',
+    text: '079 470 6439',
+    href: 'tel:0794706439',
   },
   {
     Icon: Mail,
     label: 'Send an email',
-    text: 'info@makwarelaas.co.za',
-    href: 'mailto:info@makwarelaas.co.za',
+    text: 'info@masattorneys.co.za',
+    href: 'mailto:info@masattorneys.co.za',
   },
   {
     Icon: MapPin,
     label: 'Visit our offices',
-    text: '123 Commissioner Street\nJohannesburg, 2001',
+    text: '366 Kent Avenue Street\n Kent Gardens \n Ferndale \n Randburg (Johannesburg), 2001',
     href: '#',
   },
   {

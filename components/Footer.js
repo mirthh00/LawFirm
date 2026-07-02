@@ -28,9 +28,9 @@ const RESOURCES = [
 ]
 
 const CONTACT = [
-  { Icon: Phone,  text: '+27 11 000 0000',           href: 'tel:+27110000000' },
-  { Icon: Mail,   text: 'info@meridianlaw.co.za',    href: 'mailto:info@meridianlaw.co.za' },
-  { Icon: MapPin, text: '123 Commissioner Street\nJohannesburg, 2001', href: '#' },
+  { Icon: Phone,  text: '079 470 6439',           href: 'tel:0794706439' },
+  { Icon: Mail,   text: 'info@masattorneys.co.za',    href: 'mailto:info@masattorneys.co.za' },
+  { Icon: MapPin, text: '366 Kent Avenue Street\n Kent Gardens \n Ferndale \n Randburg (Johannesburg), 2001', href: '#' },
 ]
 
 const HOURS = [
@@ -55,7 +55,7 @@ export default function Footer() {
     <footer className="bg-[#0A1E38] text-white">
 
       {/* ── Top accent strip ─────────────────────────────── */}
-      <div className="h-0.5 bg-gradient-to-r from-transparent via-light-orange/60 to-transparent" />
+      <div className="h-0.5 bg-gradient-to-r from-transparent via-[#d4bb2a]/60 to-transparent" />
 
       {/* ── Main grid ────────────────────────────────────── */}
       <div className="max-w-7xl mx-auto px-5 sm:px-8 pt-16 pb-14">
@@ -66,7 +66,7 @@ export default function Footer() {
             {/* Logo */}
             <Link href="/" className="inline-flex items-center gap-2.5 mb-5 group">
               <div className="w-9 h-9 rounded-sm bg-white/6 border border-white/10 flex items-center justify-center group-hover:border-light-orange/40 transition-colors">
-                <Scale size={16} className="text-light-orange" strokeWidth={1.6} />
+                <Scale size={16} className="text-[#d4bb2a]" strokeWidth={1.6} />
               </div>
               <div className="leading-none">
                 <p className="font-cormorant text-[19px] font-bold tracking-[0.2em] text-white">
@@ -103,7 +103,7 @@ export default function Footer() {
                     href="#practice-areas"
                     className="group inline-flex items-center gap-1.5 font-inter text-sm text-white/55 hover:text-light-orange transition-colors duration-200"
                   >
-                    <span className="w-3.5 h-px bg-white/20 group-hover:bg-light-orange group-hover:w-5 transition-all duration-200 shrink-0" />
+                    <span className="w-3.5 h-px bg-white/20 group-hover:bg-[#d4bb2a] group-hover:w-5 transition-all duration-200 shrink-0" />
                     {area}
                   </a>
                 </li>
@@ -121,7 +121,7 @@ export default function Footer() {
                     href={r === 'Legal FAQ' ? '#faq' : '#resources'}
                     className="group inline-flex items-center gap-1.5 font-inter text-sm text-white/55 hover:text-light-orange transition-colors duration-200"
                   >
-                    <span className="w-3.5 h-px bg-white/20 group-hover:bg-light-orange group-hover:w-5 transition-all duration-200 shrink-0" />
+                    <span className="w-3.5 h-px bg-white/20 group-hover:bg-[#d4bb2a] group-hover:w-5 transition-all duration-200 shrink-0" />
                     {r}
                   </a>
                 </li>
@@ -132,7 +132,7 @@ export default function Footer() {
             <div className="mt-7 pt-7 border-t border-white/8">
               <ColHead>Quick links</ColHead>
               <ul className="space-y-2">
-                {['Home', 'About Us', 'Contact', 'Privacy Policy'].map(l => (
+                {['Home', 'About Us', 'Contact',].map(l => (
                   <li key={l}>
                     <a href="#" className="font-inter text-sm text-white/40 hover:text-white/70 transition-colors duration-200">
                       {l}
@@ -154,7 +154,7 @@ export default function Footer() {
                     className="group flex items-start gap-3 hover:opacity-90 transition-opacity"
                   >
                     <div className="w-7 h-7 rounded-sm bg-white/6 border border-white/10 flex items-center justify-center shrink-0 mt-0.5 group-hover:border-light-orange/35 group-hover:bg-light-orange/8 transition-colors duration-200">
-                      <Icon size={12} className="text-light-orange" strokeWidth={1.7} />
+                      <Icon size={12} className="text-[#d4bb2a]" strokeWidth={1.7} />
                     </div>
                     <div>
                       {text.split('\n').map((line, i) => (
@@ -190,7 +190,7 @@ export default function Footer() {
               {/* Book button */}
               <a
                 href="#contact"
-                className="mt-6 flex items-center justify-center gap-2 w-full bg-light-orange/12 border border-light-orange/30 text-light-orange font-inter text-xs font-semibold py-3 rounded-sm hover:bg-light-orange/20 transition-colors duration-200"
+                className="mt-6 flex items-center justify-center gap-2 w-full bg-light-orange/12 border border-[#d4bb2a]/30 text-[#d4bb2a] font-inter text-xs font-semibold py-3 rounded-sm hover:bg-light-orange/20 transition-colors duration-200"
               >
                 Book a Consultation
                 <ArrowUpRight size={12} strokeWidth={2} />
