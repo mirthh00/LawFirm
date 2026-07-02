@@ -2,7 +2,7 @@ import AreaLayout, { H2, H3, P, UL, LI, Note, Rule } from '@/components/AreaLayo
 import { Car } from 'lucide-react'
 
 export const metadata = {
-  title: 'Road Accident Fund Claims | Meridian Attorneys',
+  title: 'Road Accident Fund Claims | Makwarela A.S Attorneys',
   description: 'RAF claims for drivers, passengers, and pedestrians injured through another\'s negligence. General damages, loss of earnings, and medical costs — we build your claim from start to settlement.',
 }
 

@@ -4,7 +4,7 @@ import { ArrowLeft, ArrowRight, Calendar, Clock } from "lucide-react";
 
 export const metadata = {
   title:
-    "What to Do If You Face Unfair Dismissal | Mjila Gumede Attorneys",
+    "What to Do If You Face Unfair Dismissal | Makwarela A.S Attorneys",
   description:
     "Learn what unfair dismissal means in South Africa, what your rights are as an employee, and the practical steps to take if you believe you have been dismissed unfairly.",
 };

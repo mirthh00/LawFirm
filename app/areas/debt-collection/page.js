@@ -2,7 +2,7 @@ import AreaLayout, { H2, P, UL, LI, Note, Rule } from '@/components/AreaLayout'
 import { Receipt } from 'lucide-react'
 
 export const metadata = {
-  title: 'Debt Collection | Meridian Attorneys',
+  title: 'Debt Collection | Makwarela A.S Attorneys',
   description: 'We recover what is owed to you — demand letters, summons, judgment, and execution — through the appropriate court, swiftly and cost-effectively.',
 }
 

@@ -2,7 +2,7 @@ import AreaLayout, { H2, P, UL, LI, Note, Rule } from '@/components/AreaLayout'
 import { CreditCard } from 'lucide-react'
 
 export const metadata = {
-  title: 'Debt Review | Meridian Attorneys',
+  title: 'Debt Review | Makwarela A.S Attorneys',
   description: 'Formal debt rehabilitation under the National Credit Act. We protect your assets, negotiate with creditors, and restructure your repayments.',
 }
 

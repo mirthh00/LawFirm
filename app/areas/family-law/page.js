@@ -2,7 +2,7 @@ import AreaLayout, { H2, P, UL, LI, Note, Rule } from '@/components/AreaLayout'
 import { Users } from 'lucide-react'
 
 export const metadata = {
-  title: 'Family Law | Meridian Attorneys',
+  title: 'Family Law | Makwarela A.S Attorneys',
   description: 'Protection orders, child maintenance, parenting plans, and guardianship matters — always with your family\'s best interests as the guiding principle.',
 }
 

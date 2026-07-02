@@ -2,7 +2,7 @@ import AreaLayout, { H2, H3, P, UL, LI, Note, Rule } from '@/components/AreaLayo
 import { HeartCrack } from 'lucide-react'
 
 export const metadata = {
-  title: 'Divorce Matters | Meridian Attorneys',
+  title: 'Divorce Matters | Makwarela A.S Attorneys',
   description: 'Contested and uncontested divorces in South Africa — property division, parenting plans, spousal maintenance, and children\'s rights handled with clarity and sensitivity.',
 }
 

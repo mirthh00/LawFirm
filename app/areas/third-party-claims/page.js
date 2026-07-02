@@ -2,7 +2,7 @@ import AreaLayout, { H2, P, UL, LI, Note, Rule } from '@/components/AreaLayout'
 import { Handshake } from 'lucide-react'
 
 export const metadata = {
-  title: 'Third Party Claims | Meridian Attorneys',
+  title: 'Third Party Claims | Makwarela A.S Attorneys',
   description: 'Claims against third-party insurers for loss or injury caused by another\'s negligence. We build your case and negotiate the best possible settlement on your behalf.',
 }
 

@@ -18,8 +18,8 @@ const inter = Inter({
 export const metadata = {
   title: 'Makwarela A.S Attorneys | Legal Guidance When You Need It Most',
   description:
-    'Makwarela A.S Attorneys provides clear, practical legal advice in Johannesburg. We listen carefully, explain your options in plain language, and help you move forward with confidence.',
-  keywords: ['attorneys', 'law firm', 'Johannesburg', 'legal advice', 'family law', 'business law'],
+    'Makwarela A.S Attorneys (Pty) Ltd provides professional legal services in family law, labour law, commercial law, civil litigation and more. Contact our experienced legal team today.',
+  keywords: ['attorneys', 'law firm', 'Johannesburg', 'legal advice', 'family law', 'business law','Makwarela','Makwarela A.S','Makwarela A.S Attorneys'],
 }
 
 export default function RootLayout({ children }) {

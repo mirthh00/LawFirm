@@ -2,7 +2,7 @@ import AreaLayout, { H2, P, UL, LI, Note, Rule } from '@/components/AreaLayout'
 import { Scale } from 'lucide-react'
 
 export const metadata = {
-  title: 'Commercial & General Litigation | Meridian Attorneys',
+  title: 'Commercial & General Litigation | Makwarela A.S Attorneys',
   description: 'Breach of contract, business disputes, shareholder conflicts, and professional negligence claims — Magistrate Court, High Court, and arbitration.',
 }
 

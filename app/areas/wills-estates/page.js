@@ -2,7 +2,7 @@ import AreaLayout, { H2, P, UL, LI, Note, Rule } from '@/components/AreaLayout'
 import { ScrollText } from 'lucide-react'
 
 export const metadata = {
-  title: 'Wills & Deceased Estates | Meridian Attorneys',
+  title: 'Wills & Deceased Estates | Makwarela A.S Attorneys',
   description: 'Drafting valid South African wills and guiding families through the full administration of deceased estates — efficiently, correctly, and compassionately.',
 }
 

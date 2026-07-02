@@ -4,7 +4,7 @@ import { ArrowLeft, ArrowRight, Calendar, Clock } from "lucide-react";
 
 export const metadata = {
   title:
-    "Key Clauses to Review Before Signing a Commercial Lease | Mjila Gumede Attorneys",
+    "Key Clauses to Review Before Signing a Commercial Lease | Makwarela A.S Attorneys",
   description:
     "Before signing a commercial lease in South Africa, understand the clauses that can affect your business for years to come. Learn what to review and why legal advice matters.",
 };

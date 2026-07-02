@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowLeft, ArrowRight, Calendar, Clock } from "lucide-react";
 
 export const metadata = {
-  title: "Understanding Your Rights During Divorce Proceedings | Mjila Gumede Attorneys",
+  title: "Understanding Your Rights During Divorce Proceedings | Makwarela A.S Attorneys",
   description:
     "Learn about your rights during divorce proceedings in South Africa, the legal process involved, and how experienced legal representation can help protect your interests.",
 };
