@@ -111,12 +111,51 @@ export default function CallToAction() {
     return e
   }
 
-  const handleSubmit = e => {
-    e.preventDefault()
-    const errs = validate()
-    if (Object.keys(errs).length) { setErrors(errs); return }
-    setSubmitted(true)
+const [loading, setLoading] = useState(false);
+
+const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  const errs = validate();
+
+  if (Object.keys(errs).length) {
+    setErrors(errs);
+    return;
   }
+
+  try {
+    setLoading(true);
+
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(form),
+    });
+
+    const data = await res.json();
+
+    if (!res.ok) {
+      throw new Error(data.message || "Something went wrong.");
+    }
+
+    setSubmitted(true);
+
+    setForm({
+      name: "",
+      email: "",
+      phone: "",
+      method: "phone",
+      message: "",
+    });
+
+  } catch (err) {
+    alert(err.message);
+  } finally {
+    setLoading(false);
+  }
+};
 
   return (
     <section id="contact" className="bg-deep-blue py-24 sm:py-32">
@@ -368,12 +407,13 @@ export default function CallToAction() {
 
                     {/* Submit */}
                     <button
-                      type="submit"
-                      className="w-full flex items-center justify-center gap-2.5 bg-[#d4bb2a] text-white font-inter font-semibold text-sm py-4 rounded-sm hover:opacity-92 active:scale-[0.985] transition-all duration-200 mt-2 shadow-md shadow-orange-300/25"
-                    >
-                      Send Enquiry
-                      <Send size={15} strokeWidth={2} />
-                    </button>
+    type="submit"
+    disabled={loading}
+    className="w-full flex items-center justify-center gap-2.5 bg-[#d4bb2a] text-white font-inter font-semibold text-sm py-4 rounded-sm hover:opacity-92 active:scale-[0.985] transition-all duration-200 mt-2 shadow-md shadow-orange-300/25 disabled:opacity-60 disabled:cursor-not-allowed"
+>
+    {loading ? "Sending..." : "Send Enquiry"}
+    <Send size={15} strokeWidth={2} />
+</button>
 
                     {/* Privacy note */}
                     <p className="flex items-start justify-center gap-1.5 font-inter text-[11px] text-gray-400 text-center leading-snug pt-1">
